@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta  name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>大连市中山区体校-乒乓球俱乐部</title>
-  <meta name="keywords" content="大连市中山区乒乓球，大连乒乓球，乒乓球俱乐部" />
-  <meta name="description" content="大连市中山区体校，拥有多年的乒乓球教学经历，拥有宽敞的训练场地，一流的教练团队，培养的学员很多都进入重点高中，乃至重点大学。">
+<title>大连市中山区体校(乒乓球部)</title>
+<meta name="keywords" content="大连市中山区乒乓球，大连乒乓球，乒乓球俱乐部" />
+  <meta name="description" content="大连市中山区体校（乒乓球部），拥有多年的乒乓球教学经历，拥有宽敞的训练场地，一流的教练团队，培养了多名高校，省，国家专业运动员及海内外乒乓球专业人士。">
   <meta name="author" content="dlzstx" />
 <script type="text/javascript" src="js/touchslide.1.1.js"></script>
 <script type="text/javascript" src="js/jq.mobi.min.js" ></script>
@@ -18,6 +18,58 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <script>
+		  function check_has_hide(){
+			var display =$('#grade_1').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_2').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_3').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_4').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_5').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_6').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_7').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_8').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			display =$('#grade_9').css('display');
+			if (display !== "none") {
+				return true;
+			}
+			return false;
+			
+		  }
+		  function all_hide(){
+			$('#grade_1').hide();
+			$('#grade_2').hide();
+			$('#grade_3').hide();
+			$('#grade_4').hide();
+			$('#grade_5').hide();
+			$('#grade_6').hide();
+			$('#grade_7').hide();
+			$('#grade_8').hide();
+			$('#grade_9').hide();
+			
+		  }
             $(function () {
                 $('#tcgao').hide();
 
@@ -33,6 +85,8 @@
                     $.scrollTo('#about3-desc', 1000);
                     $('#about3-desc').css('padding-top', '85px');
                 });
+				
+				all_hide();		
             })
         </script>
 <script type="text/javascript">
@@ -64,6 +118,7 @@
   <div class="w_1200">
     <div class="c_1200_1">
       <div class="logo"><a href="javascript:void(0);"><img src="picture/logo.jpg" width="153" height="60"></a></div>
+	  <div class="logo-text">中山区体校(乒乓球部)欢迎您！</div>
       <div class="r_menu">
         <div class="menu"  id="navSlide">
           <ul>
@@ -129,14 +184,14 @@
 		 <li class='l1'>
 		  <a href='#' class='hover' id="about1">
 		  <div class='l_abs'><img src='picture/join_img2.png' width='8' height='30'></div> 
-		  <div class='c_abs'>乒乓球简介</div> 
+		  <div class='c_abs'>中山体校简介</div> 
 		  <div class='r_abs'><img src='picture/join_img2.png' width='8' height='30'></div> 
 		 </a> 
 		 </li>
           <li class="l1">
 		    <a href="#" id="left1">
               <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-              <div class="c_abs">中山体校简介</div>
+              <div class="c_abs">乒乓球简介</div>
               <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
             </a>
 		  </li>
@@ -144,7 +199,7 @@
           <li class="l1">
 		  <a href="#" id="left2">
             <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-            <div class="c_abs">俱乐部文化</div>
+            <div class="c_abs">等级考试简介</div>
             <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
             </a>
 			</li>
@@ -176,14 +231,14 @@
 		  <li class='l1'>
 		  <a href='#' class='hover' id="about1">
 		    <div class='l_abs'><img src='picture/join_img2.png' width='8' height='30'></div>
-		    <div class='c_abs'>乒乓球简介</div>
+		    <div class='c_abs'>中山体校简介</div>
 			<div class='r_abs'><img src='picture/join_img2.png' width='8' height='30'></div>
 		  </a>
 		  </li>
             <li class="l1">
 			<a href="#" id="left1">
               <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-              <div class="c_abs">中山体校简介</div>
+              <div class="c_abs">乒乓球简介</div>
               <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
             </a>
 			</li>
@@ -191,7 +246,7 @@
             <li class="l1">
 			<a href="#" id="left2">
               <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-              <div class="c_abs">俱乐部文化</div>
+              <div class="c_abs">等级考试简介</div>
               <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
             </a>
 			</li>
@@ -229,13 +284,13 @@
 	  <li class='l1'>
 	  <a href='#' class='hover'>
 	  <div class='l_abs'><img src='picture/join_img2.png' width='8' height='30'></div>
-	  <div class='c_abs'>乒乓球简介</div> <div class='r_abs'><img src='picture/join_img2.png' width='8' height='30'></div>
+	  <div class='c_abs'>中山体校简介</div> <div class='r_abs'><img src='picture/join_img2.png' width='8' height='30'></div>
 	  </a>
 	  </li>
         <li class="l1">
 		<a href="#" id="left1">
           <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-          <div class="c_abs">中山体校简介</div>
+          <div class="c_abs">乒乓球简介</div>
           <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
         </a>
 		</li>
@@ -243,7 +298,7 @@
         <li class="l1">
 		<a href="#" id="left2">
           <div class="l_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
-          <div class="c_abs">俱乐部文化</div>
+          <div class="c_abs">等级考试简介</div>
           <div class="r_abs"><img src="picture/join_img2.png" width="8" height="30"></div>
         </a>
 		</li>
@@ -267,12 +322,53 @@
   <div class="w_1200" >
     <div class="c_1200_7">
       <div class="title_4">
-        <div class="m_tit_con" id="about1-desc"> <span>乒乓球简介</span>
+        <div class="m_tit_con" id="about1-desc"> <span>中山体校简介</span>
           <div class="tit_eng">
             <div class="engcon"> Table tennis synopsis</div>
           </div>
         </div>
         <script>
+                    var btn = $(".title_4").width() - $(".title_4 .m_tit_con").width();
+                    var btnl = btn / 2;
+                    $(".title_4 .m_tit_con").css("margin-left", btnl + "px");
+		      </script> 
+      </div>
+      <div class="t_1200_18">
+        <p class="about-desc">
+            大连市中山区体校（乒乓球部）前身是大连市中山区健身中心乒乓球部，2016年迁至青泥洼桥小学内的乒乓球馆。俱乐部拥有1000多平方米的训练场地，一流的训练设施，有多名专业的国家级乒乓球教练团队。
+        </p>&nbsp;
+<p style="text-indent: 0em;">
+	大连市中山区体校（乒乓球部）也是国家乒乓球后备人才培训基地，曾培养了多么高校，省，国家专业运动员及海外乒乓球专业人士。</p><br>
+<p style="text-indent: 0em;">
+	乒乓球是我国的"国球"。乒乓球项目可增强孩子的体能和体质，提高灵活性，同时也是唯一一个可以有效治疗青少年视力，让孩子摘掉眼镜的运动。<br/>
+    让孩子摘掉眼镜，丢掉ipad，丢掉孤独，走向赛场！并能达到提高身体素质，强身健体的目的。
+    乒乓球项目也在初中，高中，大学体育特长招生项目之列。</p><br>	
+<p style="text-indent: 0em;">
+	大连市中山区体校（乒乓球部）地址位于青泥洼桥小学内（辽宁省大连市中山区武汉街43号）。交通发达便利。学校拥有浪花式围墙，绿化面积1800平方米，有专业的体能训练和游戏的场地。
+	</p><br>
+	
+<p style="text-indent: 0em;font-weight:bolder; ">招生简章</p>
+<p style="text-indent: 2em;">
+为了提高青少年的身体素质和体育爱好，中山区体校（乒乓球部）面向儿童及中小学生长期招生。
+</p>
+<p>&nbsp;&nbsp;</p>
+<p style="text-indent: 2em;float:right" onclick="$.scrollTo('#about1', 1000);">&nbsp;<a href="#" title="返回"><img src="images/go-back.png" width="50" height="30"/></a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="w_1200">
+    <div class="c_1200_7">
+      <div class="title_4">
+        <div class="m_tit_con" id="about2-desc"> <span>乒乓球简介</span>
+          <div class="tit_eng">
+            <div class="engcon"> ZhongShan Sports Table tennis School</div>
+          </div>
+        </div>
+		        <script>
                     var btn = $(".title_4").width() - $(".title_4 .m_tit_con").width();
                     var btnl = btn / 2;
                     $(".title_4 .m_tit_con").css("margin-left", btnl + "px");
@@ -294,7 +390,7 @@
 	&nbsp;&nbsp;乒乓球出现不久，便成了一种风靡一时的热门运动。20世纪初，美国开始成套地生产乒乓球比赛用具，它是美国头号持拍运动，有超过20万美国人在打乒乓球。最初，Table tennis有其它的名称，如Indoor tennis，后来，一位美国制造商以乒乓球撞击时所发出的声音创造出Ping-pang这个新词，作为他制造的“乒乓球”专利注册商标，Ping-pang后来成了Table tennis的另一个正式名称，当它传到中国后，人们又创造出“乒乓球”这个新的词语。<br>
 	&nbsp;&nbsp;乒乓球运动的很多用词是从网球变来的。打乒乓球所用的球叫Ping-pong ball或Table-tennis ball，乒乓球台叫Ping-pong table，台面称Court，中间的球网称Net，支撑球网的架子叫Net support，乒乓球拍叫Ping-pong bat。<br>
 	&nbsp;&nbsp;乒乓球单人比赛原来一般采取三局两胜或五局三胜制(每局21分)，2001年改为七局四胜制或五局三胜制(每局11分)，所谓“局”，英文是Set，发球叫Serve。<br>
-	在名目繁多的乒乓球比赛中，最负盛名的是世界乒乓球锦标赛，起初每年举行一次，1957年后改为两年举行一次。
+	在名目繁多的乒乓球比赛中，最负盛名的是世界乒乓球锦标赛，起初每年举行一次，1957年后改为两年举行一次。</p>
 <p>
 	&nbsp;&nbsp;</p>
 <p style="text-indent: 0em;font-weight:bolder; ">变革</p>
@@ -344,20 +440,19 @@
 <strong>器材规格</strong><br>
 &nbsp;&nbsp;场地规格赛区应由0.75米高的同一深色的挡板围起，并与相邻的赛区及观众隔开。每张球台的比赛场地面积为8米×16米。场地内放有球台、球网、球、挡板、裁判桌、裁判椅、计分器等。每张球台至少还要使用两台电子计分牌，决赛时使用四台。电子记分牌安放在乒乓球比赛场地两侧后面或四角，牌上有运动员的姓名、所属国家或地区、时间、各局比分等，使观众在看台上可以清楚地看到显示屏上的比分。体育馆内还有一个所有观众都能看清楚的大电子显示屏，能同时显示所有球台比赛的有关信息。决赛或仅使用一张球台比赛时，裁判员使用话筒，以方便全场观众观看比赛。器材规格球台——高76厘米、长2.74米、宽1.525米，颜色为墨绿色或蓝色。球网——高15.25厘米、台外突出部分长15.25厘米，颜色与球台颜色相同。球——呈白色或橙色，且无光泽，直径40毫米、重量2.7克的硬球。挡板——高0.75米、宽1.4或2米，颜色与球台颜色相同。所有器材均由国际乒联特别批准和指定。在整个比赛过程中包括训练设施均必须采用相同牌号的器材。
 </p>
-<p style="text-indent: 2em;float:right" onclick="$.scrollTo('#about1', 1000);">&nbsp;<a href="#" title="返回"><img src="images/go-back.png" width="50" height="30"/></a></p>
+          <p style="text-indent: 2em;float:right" onclick="$.scrollTo('#about1', 1000);">&nbsp;<a href="#" title="返回"><img src="images/go-back.png" width="50" height="30"/></a></p>
       </div>
     </div>
   </div>
 
 
 
-
-  <div class="w_1200">
+  <div class="w_1200" id="grade_test">
     <div class="c_1200_7">
       <div class="title_4">
-        <div class="m_tit_con" id="about2-desc"> <span>中山体校简介</span>
+        <div class="m_tit_con"  id="about3-desc"> <span>国家等级考试简介</span>
           <div class="tit_eng">
-            <div class="engcon"> ZhongShan Sports Table tennis School</div>
+            <div class="engcon">Introduction of Table Tennis Grade Test</div>
           </div>
         </div>
 		        <script>
@@ -367,47 +462,149 @@
 		      </script> 
       </div>
       <div class="t_1200_18">
-        <p class="about-desc">
-            乒乓球(ping-pong)，中国国球，是一种世界流行的球类体育项目，包括进攻、对抗和防守。乒乓球起源于英国，"乒乓球"一名起源自1900年，因其打击时发出“Ping Pong”的声音而得名，在中国大陆以“乒乓球”作为它的官方名称，香港及澳门等地区亦同。乒乓球为圆球状，重2.53-2.70克，白或黄色，用赛璐珞或塑料制成，2000年悉尼奥运会之前国际比赛用球的直径为38mm，2000年之后国际比赛用球的直径为40mm。运动员各站球台一侧，在中间隔有横网的长274厘米、宽152厘米、高76厘米的球台上进行，用球拍击球(击法有挡、抽、削、搓、拉等)，球须在台上反弹后才能还击过网，以落在对方台面上为有效。比赛分团体、单打、双打等数种;以11分为一局，采用五局三胜，七局四胜。
-        </p>&nbsp;
-<!--
-<p style="text-indent: 2em;">&nbsp;
-	</p>
-	-->
-<p style="text-indent: 0em;">
-	2016年里约热内卢奥运会(2016年7月18日)中国奥运代表团成立，乒乓球队名单： 女运动员：李晓霞、丁宁、刘诗雯、朱雨玲，男运动员：马龙、许昕、张继科、樊振东。</p><br>
-<p style="text-indent: 0em;font-weight:bolder; ">乒乓球的发展历史</p>
-<p style="text-indent: 2em;">
-	乒乓球起源于英国。19世纪末，欧洲盛行网球运动，但由于受到场地和天气的限制，英国有些大学生便把网球移到室内，以餐桌为球台，书作球网，用羊皮纸做球拍，在餐桌上打来打去。1890年，几位驻守印度的英国海军军官偶然发觉在一张不大的台子上玩网球颇为刺激。后来他们改用实心橡胶代替弹性不大的实心球，随后改为空心的塑料球，并用木板代替了网拍，在桌子上进行这种新颖的“网球赛”，这就是Table tennis得名的由来。<br>
-	&nbsp;&nbsp;乒乓球出现不久，便成了一种风靡一时的热门运动。20世纪初，美国开始成套地生产乒乓球比赛用具，它是美国头号持拍运动，有超过20万美国人在打乒乓球。最初，Table tennis有其它的名称，如Indoor tennis，后来，一位美国制造商以乒乓球撞击时所发出的声音创造出Ping-pang这个新词，作为他制造的“乒乓球”专利注册商标，Ping-pang后来成了Table tennis的另一个正式名称，当它传到中国后，人们又创造出“乒乓球”这个新的词语。
-	</p>
+		<p class="about-desc">全国青少年乒乓球等级考试介绍视频：</p>
+		<p>&nbsp;&nbsp;</p>
+	   <!--------------------start ---------------------->
+		<div id="img_box">			
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_1.png">  
+				  <img class="play" src="images/videos_play.png" onclick="grade_one_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（一级内容与标准）</div> <!--  v.swf?==&isAutoPlay=true -->
+				<embed id="grade_1" src='http://player.youku.com/player.php/sid/XMTcyNDkwMjA1Mg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			
+			<div class="marginRightBox">
+				<div class="img_div">   
+					<img class="bg_img" src="images/grade_2.png">   
+					<img class="play" src="images/videos_play.png" onclick="grade_two_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（二级内容与标准）</div>
+				<embed id="grade_2" src='http://player.youku.com/player.php/sid/XMTcyNDkyNDIxNg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_3.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_three_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（三级内容与标准）</div>
+				<embed id="grade_3" src='http://player.youku.com/player.php/sid/XMTcyNDk4NTgzMg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_4.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_four_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（四级内容与标准）</div>
+				  <embed id="grade_4" src='http://player.youku.com/player.php/sid/XMTcyNTAyMzQzNg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_5.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_five_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（五级内容与标准）</div>
+				  <embed id="grade_5" src='http://player.youku.com/player.php/sid/XMTcyNTA4ODI1Mg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			
+			
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_6.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_six_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（六级内容与标准）</div>
+				  <embed id="grade_6" src='http://player.youku.com/player.php/sid/XMTcyNTE0ODgxMg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_7.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_seven_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（七级内容与标准）</div>
+				  <embed id="grade_7" src='http://player.youku.com/player.php/sid/XMTcyNTIwMTM2MA==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_8.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_eight_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（八级内容与标准）</div>
+				<embed id="grade_8" src='http://player.youku.com/player.php/sid/XMTcyNTI0NzIxNg==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>
+			<div class="marginRightBox">
+				<div class="img_div">   
+				  <img class="bg_img" src="images/grade_9.png">   
+				  <img class="play" src="images/videos_play.png" onclick="grade_nine_click();">
+				</div>
+				<div class="con_div">乒乓球等级考试（九级内容与标准）</div>
+				<embed id="grade_9" src='http://player.youku.com/player.php/sid/XMTcyNTgzMjQ0MA==/v.swf' allowFullScreen='true' quality='high' width=100% height=100% align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+			</div>				
+				
+				
+				
+          <script>
+
+		  function grade_one_click(){
+		    all_hide();
+			$('#grade_1').show();
+		  }
+		  function grade_two_click(){
+		    all_hide();
+			$('#grade_2').show();
+		  }
+		  function grade_three_click(){
+		    all_hide();
+			$('#grade_3').show();
+		  }
+		  function grade_four_click(){
+		    all_hide();
+			$('#grade_4').show();
+		  }
+		  function grade_five_click(){
+		    all_hide();
+			$('#grade_5').show();
+		  }
+		  function grade_six_click(){
+		    all_hide();
+			$('#grade_6').show();
+		  }
+		  function grade_seven_click(){
+		    all_hide();
+			$('#grade_7').show();
+		  }
+		  function grade_eight_click(){
+		    all_hide();
+			$('#grade_8').show();
+		  }
+		  function grade_nine_click(){
+		    all_hide();
+			$('#grade_9').show();
+		  }
+		  
+		  
+		  
+          </script> 
+		</div>
+	   
+	   
+	   
+	   <!--------------------end ---------------------->	   
+      </div>
+		   
+		   
+		   
+		<p>&nbsp;&nbsp;</p>
           <p style="text-indent: 2em;float:right" onclick="$.scrollTo('#about1', 1000);">&nbsp;<a href="#" title="返回"><img src="images/go-back.png" width="50" height="30"/></a></p>
       </div>
     </div>
-  </div>
 
-
-
-  <div class="w_1200">
-    <div class="c_1200_7">
-      <div class="title_4">
-        <div class="m_tit_con"  id="about3-desc"> <span>俱乐部文化</span>
-          <div class="tit_eng">
-            <div class="engcon"> ZhongShan Sports corporate culture</div>
-          </div>
-        </div>
-		        <script>
-                    var btn = $(".title_4").width() - $(".title_4 .m_tit_con").width();
-                    var btnl = btn / 2;
-                    $(".title_4 .m_tit_con").css("margin-left", btnl + "px");
-		      </script> 
-      </div>
-      <div class="t_1200_18">
-        <p class="about-desc">更快，更好，更强。</p>
-          <p style="text-indent: 2em;float:right" onclick="$.scrollTo('#about1', 1000);">&nbsp;<a href="#" title="返回"><img src="images/go-back.png" width="50" height="30"/></a></p>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -441,18 +638,11 @@
 
 
 
-
-
-
-
-
-
-
-</div>
-
 <script>
             $("#nav2").addClass("on");
  </script> 
+</div>
+
 
 <div class="pz_down"> 
   <!--底部开始手机用另外一个底-->
@@ -470,13 +660,13 @@
             <div class="pz_select_2"  > <span>友情链接</span>
               <ul>
                 
-                
-                
-                
-                
-                
-                
-                <li class="option"><a href="http://site.ageqin.cn/" target="_blank">百度</a> </li>
+                <li class="option"><a href="https://www.szppq.com/" target="_blank">乒乓球等级考试平台</a> </li>
+                <li class="option"><a href="http://www.sport.gov.cn/" target="_blank">国家体育总局</a> </li>
+				<li class="option"><a href="http://pyzx.sport.gov.cn/" target="_blank">国家乒羽中心</a> </li>
+				<li class="option"><a href="http://www.ittf.com/" target="_blank">国际乒联</a> </li>
+				<li class="option"><a href="http://www.ctta.cn/" target="_blank">中国乒乓球协会</a> </li>
+				<li class="option"><a href="http://www.cassi.org.cn/" target="_blank">中国社会体育指导员协会</a> </li>
+				<li class="option"><a href="http://www.sportsol.com.cn/" target="_blank">中国体育在线</a> </li>
                 
               </ul>
               <input name="ShowType" id="ShowType" type="hidden" value="" />
@@ -539,13 +729,13 @@
             <div class="pz_select_3"  > <span>友情链接</span>
               <ul>
                 
-
-                
-
-                
-
-                
-                <li> <a href="hhttp://site.ageqin.cn/" target="_blank">百度</a>  </li>
+                <li class="option"><a href="https://www.szppq.com/" target="_blank">乒乓球等级考试平台</a> </li>
+                <li class="option"><a href="http://www.sport.gov.cn/" target="_blank">国家体育总局</a> </li>
+				<li class="option"><a href="http://pyzx.sport.gov.cn/" target="_blank">国家乒羽中心</a> </li>
+				<li class="option"><a href="http://www.ittf.com/" target="_blank">国际乒联</a> </li>
+				<li class="option"><a href="http://www.ctta.cn/" target="_blank">中国乒乓球协会</a> </li>
+				<li class="option"><a href="http://www.cassi.org.cn/" target="_blank">中国社会体育指导员协会</a> </li>
+				<li class="option"><a href="http://www.sportsol.com.cn/" target="_blank">中国体育在线</a> </li>
                 
               </ul>
               <input name="ShowType" id="Hidden1" type="hidden" value="" />
@@ -592,6 +782,8 @@
         </div>
       </div>
     </div>
-  </div></div>
+  </div>
+  </div>
+</div>
 </body>
 </html> 

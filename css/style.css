@@ -135,6 +135,47 @@ body {
 	height: 60px;
 	margin: 13px 0 12px 0;
 }
+.logo-text {
+	float: left;
+	height: 60px;
+	margin: 13px 0 12px 12px;
+	line-height: 60px;
+	color: #333333;
+	font-size: 24px;
+	text-align: center;
+}
+@media screen and (max-width:1000px) {
+	.logo-text {
+		margin: 13px 0 4px 4px;
+		font-size:250%;
+	}
+}
+@media screen and (min-width: 960px) and (max-width: 9999px) {
+	.logo-text {
+		margin: 13px 0 4px 4px;
+		font-size:250%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.logo-text {
+		margin: 13px 0 4px 4px;
+		font-size:180%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.logo-text {
+		margin: 13px 0 4px 4px;
+		font-size:20%;
+	}
+}
+
+ @media screen and (max-width:480px) {
+	.logo-text {
+		display:none;
+	}
+
+}
+ 
 .r_menu {
 	float: right;
 	height: 74px;
@@ -2552,6 +2593,7 @@ padding:
 .c_1200_1 {
 	padding: 0 1%;
 }
+
 /*menu 效果*/
 .menu ul .nli_1 span .l1_a {
 	padding: 0 13px 7px 13px;
@@ -5730,4 +5772,90 @@ filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', end
   font:3em arial,simsun,sans-serif; 
   font-weight:bolder; 
   float:left; 
+}
+
+/*************************************/
+
+#img_box {
+    width: 100%;
+}
+#img_box>:first-child {
+    margin-left: -4%;
+}
+
+@media screen and (max-width:1000px) {
+#img_box>:first-child {
+    margin-left: -4%;
+}
+}
+@media screen and (min-width: 960px) and (max-width: 9999px) {
+#img_box>:first-child {
+    margin-left: -4%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+#img_box>:first-child {
+    margin-left: -6%;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+#img_box>:first-child {
+    margin-left: -8%;
+}
+}
+
+ @media screen and (max-width:480px) {
+#img_box>:first-child {
+    margin-left: -10%;
+}
+
+}
+
+
+.marginRightBox {
+    margin-right: 55px;
+    margin-top: 20px;
+    float: left;
+    width: 261px;
+    height: 240px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 0px;
+}
+.con_div {
+    height: 40px;
+    width: 278px;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    line-height: 40px;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.img_div {
+    position: relative;
+}
+.img_div .play {
+    position: absolute;
+    z-index: 10;
+    width: 55px;
+    height: 55px;
+    top: 50%;
+    left: 50%;
+    margin-top: -26px;
+    margin-left: -26px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.bg_img {
+    width: 279px;
+    height: 240px;
+}
+embed {
+ position:relative;
+}
+#grade_1, #grade_2, #grade_3, #grade_4, #grade_5, #grade_6, #grade_7, #grade_8, #grade_9  {
+	z-index:100;
 }
